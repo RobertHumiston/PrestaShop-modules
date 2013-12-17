@@ -77,7 +77,7 @@
 				</select>
 				 /
 				<select name="x_exp_date_y">{section name=date_y start=11 loop=20}
-					<option value="{$smarty.section.date_y.index}">20{$smarty.section.date_y.index}</option>{/section}
+					<option value="20{$smarty.section.date_y.index}">20{$smarty.section.date_y.index}</option>{/section}
 				</select>
 				<img src="{$module_dir}secure.png" alt="" style="margin-left: 5px;" /><br /><br />
 				<label style="margin-top: 4px; margin-left: 35px; display: block; width: 90px; float: left;">{l s='CVV' mod='authorizeaim'}</label> <input type="text" name="x_card_code" id="x_card_code" size="4" maxlength="4" /><img src="{$module_dir}secure.png" alt="" style="margin-left: 5px;"/> <img src="{$module_dir}help.png" id="cvv_help" title="{l s='the 3 last digits on the back of your credit card' mod='authorizeaim'}" alt="" /><br /><br />
